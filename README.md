@@ -10,5 +10,5 @@ File lister using rsync to fecth the list of files present on the mounted NFS sh
 The execute file_reader_v2 to fetch each of the files in parallel using the dd command 
 
 ```
-/file_reader_v2.sh  output.txt -j 32  -b 128K -s
+./file_reader_v2.sh  output.txt -j 32  -b 128K -s
 ```
